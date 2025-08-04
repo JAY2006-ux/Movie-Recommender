@@ -2,10 +2,15 @@
 
 
 -App.py                        # Streamlit app script
+
 -movie_dict.pkl                # Pickled movie metadata (you’ll upload this)
+
 -similarity.pkl                # Pickled similarity matrix (you’ll upload this)
+
 -requirements.txt              # List of required Python packages
+
 -README.md                     # Project overview and instructions
+
 -assets/
     - example_output.png        # (Optional) Screenshots of the app
 Movie Recommender System
