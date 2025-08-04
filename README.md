@@ -1,5 +1,5 @@
--Movie-Recommender-System.
-movie-recommender-system
+Movie-Recommender-System.
+
 
 -App.py                        # Streamlit app script
 -movie_dict.pkl                # Pickled movie metadata (you’ll upload this)
