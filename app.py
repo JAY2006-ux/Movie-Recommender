@@ -4,6 +4,7 @@ import pandas as pd
 import requests
 from PIL import Image
 from io import BytesIO
+import numpy ass np
 
 def fetch_poster(movie_id):
     try:
@@ -41,7 +42,7 @@ def recommend(movie):
     return recommended_movies,recommended_movie_poster
 
 
-similarity=pickle.load(open('similarity.pkl', 'rb'))
+similarity = np.load("similarity.npy")
 
 st.title('Movie Recommender System')
 option = st.selectbox(
