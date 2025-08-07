@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 from PIL import Image
 from io import BytesIO
-import numpy ass np
+import numpy as np
 
 def fetch_poster(movie_id):
     try:
